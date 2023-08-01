@@ -12,75 +12,74 @@ The dataset used for this analysis consists of two main tables: Covid_death and 
 Data preprocessing steps were taken to ensure the accuracy of calculations and to handle potential errors. The total_cases and total_deaths columns in the Covid_death table were altered to be of data type INT to facilitate numerical operations. Additionally, the queries incorporated NULLIF and COALESCE functions to avoid division by zero errors when calculating death percentages.
 
 ## SQL Queries for Analysis
-Select All Data
-
+* Select All Data
 The initial step was to view the data in the Covid_death table by selecting all columns and rows to understand the dataset.
 
-Data Type Modification:
+* Data Type Modification:
  The total_cases and total_deaths columns were altered to be of data type INT.
 
-Death Percentage Calculation
+* Death Percentage Calculation
  The query calculates the death percentage for each record by dividing total_deaths by total_cases and multiplying by 100.
 
-Death Rate in Specific Countries (e.g., United Kingdom)
+* Death Rate in Specific Countries (e.g., United Kingdom)
  The query filters data for specific countries (e.g., United Kingdom) and calculates the death percentage.
 
-Percentage of Population Affected by COVID-19
+* Percentage of Population Affected by COVID-19
  This query calculates the percentage of the population that has COVID-19 in specific countries (e.g., United Kingdom).
 
-Top Ten Countries with the Highest Infection Rates
+* Top Ten Countries with the Highest Infection Rates
  This query identifies the top ten countries with the highest infection rates compared to their populations.
 
-Countries with the Highest Death Count per Population
+* Countries with the Highest Death Count per Population
  The query identifies countries with the highest total death count per population.
 
-Continents with the Highest Death Rates
+* Continents with the Highest Death Rates
  The query drills down to analyze continents with the highest death rates.
 
-Death Percentage by Date Across the World
+* Death Percentage by Date Across the World
  This query calculates the death percentage by date for all available continents.
 
-Total COVID-19 Cases in the World
+* Total COVID-19 Cases in the World
  The query provides the total number of COVID-19 cases, total deaths, and the death percentage worldwide.
 
-Joining COVID-19 Death and Vaccination Data
+* Joining COVID-19 Death and Vaccination Data
  The query joins the Covid_death and Covid_vaccine tables based on location and date to analyze COVID-19 vaccination data.
 
-Population Vaccinated Percentage
+* Population Vaccinated Percentage
  This query calculates the percentage of the population that received vaccinations based on the Covid_death and Covid_vaccine data.
 
 
 ## Key Insights and Findings
 
-Mortality Analysis:
+* Mortality Analysis:
   The death percentage calculated for each record revealed the overall mortality rate of COVID-19 cases across different locations.
 Specific countries, such as the United Kingdom, showed variations in death rates, indicating potential differences in healthcare systems and pandemic response.
 
-Infection Impact on Population:
+* Infection Impact on Population:
   By calculating the percentage of the population affected by COVID-19 in various countries, the analysis highlighted the severity of the pandemic's impact on different communities.
  Some countries had a higher proportion of their population affected, indicating potential challenges in managing and containing the virus.
 
 
-High Infection Rates:
+* High Infection Rates:
   Identification of countries with the highest infection rates compared to their populations offered insights into regions facing significant challenges in controlling the spread of the virus.
   Understanding these hotspots can help allocate resources and support targeted measures.
 
 
-Impact on Mortality:
+* Impact on Mortality:
   The analysis of countries with the highest death count per population highlighted regions that experienced a more significant impact on their population's health.
   This insight is crucial for understanding the pandemic's severity and for making informed decisions on healthcare resources.
 
 
-Continental Analysis:
+* Continental Analysis:
   Analyzing death rates by continents provided a global perspective on the pandemic's impact.
  This understanding of continental trends can aid in the formulation of international strategies and collaborations to combat the virus.
 
 
-Vaccination Progress:
+* Vaccination Progress:
   The analysis of vaccination data revealed the percentage of the population vaccinated in different locations.
   Understanding vaccination progress is crucial for assessing public health efforts in managing and curbing the spread of the virus.
 
-Tableau Visualizations:
+#### Tableau Visualizations:
 For more interactive visualizations and in-depth analysis, explore the Tableau dashboard created using the data from this SQL analysis. The dashboard provides a user-friendly interface to explore the key insights and findings.
 
 https://public.tableau.com/app/profile/zipporah.ebede/viz/CovidDashboard_16891889017510/Dashboard1?publish=yes
