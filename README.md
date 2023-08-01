@@ -16,49 +16,38 @@ Select All Data
 
 The initial step was to view the data in the Covid_death table by selecting all columns and rows to understand the dataset.
 
-# Data Type Modification
+Data Type Modification:
+ The total_cases and total_deaths columns were altered to be of data type INT.
 
-The total_cases and total_deaths columns were altered to be of data type INT.
+Death Percentage Calculation
+ The query calculates the death percentage for each record by dividing total_deaths by total_cases and multiplying by 100.
 
-# Death Percentage Calculation
+Death Rate in Specific Countries (e.g., United Kingdom)
+ The query filters data for specific countries (e.g., United Kingdom) and calculates the death percentage.
 
-The query calculates the death percentage for each record by dividing total_deaths by total_cases and multiplying by 100.
+Percentage of Population Affected by COVID-19
+ This query calculates the percentage of the population that has COVID-19 in specific countries (e.g., United Kingdom).
 
-# Death Rate in Specific Countries (e.g., United Kingdom)
+Top Ten Countries with the Highest Infection Rates
+ This query identifies the top ten countries with the highest infection rates compared to their populations.
 
-The query filters data for specific countries (e.g., United Kingdom) and calculates the death percentage.
+Countries with the Highest Death Count per Population
+ The query identifies countries with the highest total death count per population.
 
-# Percentage of Population Affected by COVID-19
+Continents with the Highest Death Rates
+ The query drills down to analyze continents with the highest death rates.
 
-This query calculates the percentage of the population that has COVID-19 in specific countries (e.g., United Kingdom).
+Death Percentage by Date Across the World
+ This query calculates the death percentage by date for all available continents.
 
-# Top Ten Countries with the Highest Infection Rates
+Total COVID-19 Cases in the World
+ The query provides the total number of COVID-19 cases, total deaths, and the death percentage worldwide.
 
-This query identifies the top ten countries with the highest infection rates compared to their populations.
+Joining COVID-19 Death and Vaccination Data
+ The query joins the Covid_death and Covid_vaccine tables based on location and date to analyze COVID-19 vaccination data.
 
-# Countries with the Highest Death Count per Population
-
-The query identifies countries with the highest total death count per population.
-
-# Continents with the Highest Death Rates
-
-The query drills down to analyze continents with the highest death rates.
-
-# Death Percentage by Date Across the World
-
-This query calculates the death percentage by date for all available continents.
-
-# Total COVID-19 Cases in the World
-
-The query provides the total number of COVID-19 cases, total deaths, and the death percentage worldwide.
-
-# Joining COVID-19 Death and Vaccination Data
-
-The query joins the Covid_death and Covid_vaccine tables based on location and date to analyze COVID-19 vaccination data.
-
-# Population Vaccinated Percentage
-
-This query calculates the percentage of the population that received vaccinations based on the Covid_death and Covid_vaccine data.
+Population Vaccinated Percentage
+ This query calculates the percentage of the population that received vaccinations based on the Covid_death and Covid_vaccine data.
 
 
 ## Key Insights and Findings
