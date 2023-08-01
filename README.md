@@ -1,4 +1,4 @@
-###Covid19 Data Analysis with SQL
+##Covid19 Data Analysis with SQL
 
  This README document provides an overview of the COVID data analysis performed using SQL. It includes the SQL queries used to analyze the data and provides insights into the COVID cases, death rates, and vaccination progress in different locations.
 
